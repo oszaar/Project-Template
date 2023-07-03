@@ -1,0 +1,53 @@
+
+# font.family: sans-serif
+font.family: sans-serif
+text.usetex: false  # Use LaTeX to write all text
+# pgf.texsystem: pdflatex
+pgf.texsystem: xelatex
+# font.serif: Roboto Condensed
+# font.sans-serif: Roboto Condensed
+font.sans-serif: Arial
+# mathtext.fontset: stixsans
+# font.sans-serif: Firasans
+# mathtext.rm: sans
+font.weight: normal
+ytick.minor.visible: True
+xtick.minor.visible: True
+# Use 10pt font in plots, to match 10pt font in document
+axes.labelsize: 8
+figure.facecolor: white
+font.size: 6.5
+legend.fontsize: 7
+xtick.labelsize: 7
+ytick.labelsize: 7
+axes.spines.top: True
+axes.spines.right: True
+ytick.minor.left: True
+xtick.minor.bottom: True
+axes.grid: True
+grid.color: 0.5
+grid.linewidth: 0.5
+ytick.direction: in
+xtick.direction: in
+axes.linewidth: 1
+xtick.major.width: 1.2
+ytick.major.width: 1.2
+lines.markersize: 4
+lines.linewidth: 1.2
+legend.shadow: True
+legend.loc: best
+legend.fancybox: False
+legend.frameon: False
+legend.framealpha: 0.3
+# axes.prop_cycle: cycler('color',["E69F00","0072B2", "firebrick","009E73", "56B4E9","CC79A7","F0E442"])
+# axes.prop_cycle: cycler('color',["#027df6ff", "#f10503ff", "#f5800cff", "#550150ff", "#97f625ff", "#810808ff", "gray","CC79A7","F0E442"])
+axes.prop_cycle: cycler('color',["027df6ff", "f10503ff", "f5800cff", "550150ff", "97f625ff", "810808ff", "gray","CC79A7","F0E442"])
+axes.labelcolor: '0.15'
+xtick.color: '0.15'
+ytick.color: '0.15'
+figure.autolayout: True
+savefig.dpi: 600
+# savefig.edgecolor: '0.9'
+# savefig.facecolor: '0.9'
+figure.dpi: 120
+text.latex.preamble: \usepackage{stix2} \usepackage{url} \usepackage{mathtools} \usepackage{siunitx} \usepackage[T1]{fontenc} \usepackage{FiraSans} \usepackage{roboto}
