@@ -1,0 +1,7 @@
+project:
+  title: "Research Template"
+  output-dir: _products
+  execute-dir: project
+
+  render: 
+    - reports/
